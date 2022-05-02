@@ -1,0 +1,46 @@
+Questão 10
+#include <stdio.h>
+
+int main(){
+
+  char x1[4] = {"1234"};
+  int x2[4] ={1,2,3,4};
+  float x3[4] ={1,2,3,4};
+  double x4[4] ={1,2,3,4};
+
+   int i;
+ 	 for(i=0;i<4;i++){
+  	  printf("char --  x + %d = %p \n",i+1 ,(x1+i));
+ 	}
+ 	 for(i=0;i<4;i++){
+  	  printf("int --  x + %d = %p \n",i+1 ,(x2+i));
+ 	 }
+ 	 for(i=0;i<4;i++){
+  	  printf("float --  x + %d = %p \n",i+1 ,(x3+i));
+ 	 }
+ 	 for(i=0;i<4;i++){
+ 	   printf("double --  x + %d = %p \n",i+1 ,(x4+i));
+ 	 }
+
+
+
+}
+
+Saída:
+
+char --  x + 1 = 000000000061FE18
+char --  x + 2 = 000000000061FE19
+char --  x + 3 = 000000000061FE1A
+char --  x + 4 = 000000000061FE1B
+int --  x + 1 = 000000000061FE00
+int --  x + 2 = 000000000061FE04
+int --  x + 3 = 000000000061FE08
+int --  x + 4 = 000000000061FE0C
+float --  x + 1 = 000000000061FDF0
+float --  x + 2 = 000000000061FDF4
+float --  x + 3 = 000000000061FDF8
+float --  x + 4 = 000000000061FDFC
+double --  x + 1 = 000000000061FDD0
+double --  x + 2 = 000000000061FDD8
+double --  x + 3 = 000000000061FDE0
+double --  x + 4 = 000000000061FDE8

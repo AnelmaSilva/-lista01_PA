@@ -1,0 +1,12 @@
+Questão 03
+int i, j;
+int *p, *q;
+
+p = i; -----> não é legal pois o ponteiro deveria está sinalizado com o *
+q = &j; ----- incorreta
+p = &*&i; ---- correta
+i = (*&)j; ------ incorreta
+i = *&j; ----- correta
+i = *&*&j; ---- correta
+q = *p; ---- incorreta
+i = (*p)++ + *q; ---- correta

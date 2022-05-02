@@ -1,0 +1,7 @@
+Questão 07
+p = mat + 1; --- válida, p recebe o valor do conteúdo na posição 1 do vetor mat.
+
+p = mat++; ---- inválida, pois não pode incrementar valor int ao ponteiro.
+
+p = ++mat; ---- inválida, pois não pode decrementar valor int ao ponteiro.
+x = (*mat)++; ---- válida, pois é incremento ao conteúdo do ponteiro.

@@ -1,0 +1,4 @@
+Questão 08
+No primeiro programa, a declaração de um vetor vet de 2 posições, logo após um laço for, e dentro dele um printf para imprimir o conteúdo do bloco de memória, que tem o endereço do vetor vet. Por ser int, a cada incremento do i, ele percorre as posições do vetor de 4 em 4 bytes.
+
+Praticamente igual ao primeiro, só que o programa irá exibir os endereços de memórias do vetor.

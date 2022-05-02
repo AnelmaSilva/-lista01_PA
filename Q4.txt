@@ -1,0 +1,37 @@
+Questão 04
+Resultado da compilação do código:
+
+20
+29.0
+P
+e
+P
+e
+t
+31
+45
+27
+31
+45
+27
+
+Letra a:
+Resposta esperada correta, já que p1(ponteiro) recebeu o valor de memoria de valor. Na linha seguinte *p1(o conteúdo do ponteiro) recebe o valor de 20, como está no local de memória da varival valor, a mesma assume seu conteúdo.
+
+Letra b:
+Mesma explicação da letra A.
+
+Letra c:
+p3 recebe o endereço de memória da variável char nome na posição 0. A variável aux recebe o conteudo de nome na posição 0, no caso a letra P, que é a resposta esperada.
+
+Letra d:
+Mesma explicação da c, porém o vetor exibe o conteudo na posição 4.
+
+Letra e:
+A variável p3 recebeu o char nome, mas seu conteúdo não foi modificado, sendo assim ficando com o último valor gravado, a letra e.
+
+Letra f
+O endereço do ponteiro 'p3' irá se deslocar 4 bytes para frente, ja que o ponteiro 'p3' é do tipo char(1 byte).
+
+Letra g
+ O endereço do ponteiro 'p3' irá de deslocar em 1 byte para traz, já que o ponteiro 'p3' é do tipo char(1 byte).

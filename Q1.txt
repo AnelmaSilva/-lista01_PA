@@ -1,0 +1,11 @@
+Questão 01
+Int i = 3, j = 5 ;
+Int *p, *q;
+p = &i;
+q = &j;
+
+Determine o valor das expressões
+p == &i; --------? True, pois p está recendo o endereço de i, assim como a expressão &i também representa o endereço de i.
+*p - *q -------? O resultado da expressão é -2, já que a utilização do * acessa o conteúdo dos ponteiros p e q, que tem respectivamente os valores de i e j, que são 3 e 5.
+**&p;
+3 - *p/(*q)+7; -------? O resultado é 47/5, usando o mesmo critério da expressão 2.
